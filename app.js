@@ -18,20 +18,12 @@ var json = {
                     type: "html",
                     html: "Yeditepe Üniversitesi UBY<br/>"
                 },
-                {
-                type: "file",
-                title: "Please upload your photo",
-                name: "image",
-                storeDataAsText: false,
-                showPreview: true,
-                imageWidth: 150,
-                maxSize: 102400
-              },
+
               {
               "type": "boolean",
               "name": "bool",
               "title": "Please answer the question",
-              "label": "Are you 21 or older?",
+              "label": "Do you accept the aggrement ?",
               "isRequired": true
               }
             ]
