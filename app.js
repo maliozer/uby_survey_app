@@ -1,5 +1,3 @@
-
-
 Survey
     .StylesManager
     .applyTheme("modern");
@@ -76,11 +74,28 @@ var json = {
               ]
             },
             {
-              type: "rating",
-              name: "satisfaction",
-              title: "How satisfied are you with the Product?",
-              minRateDescription: "Not Satisfied",
-              maxRateDescription: "Completely satisfied"
+              type: "radiogroup",
+              name: "A3",
+              title: "Now looking ahead--do you think that a year from now you (and your family living there) will be better off financially, or worse off, or just about the same as now?",
+              colCount: 4,
+              choices: [
+                "1. WILL BE BETTER OFF",
+                "3. SAME",
+                "5. WILL BE WORSE OFF",
+                "8. DON’T KNOW"
+              ]
+            },
+            {
+              type: "radiogroup",
+              name: "A3b",
+              title: "And 5 years from now, do you expect that you (and your family living there) will be better off financially, worse off, or just about the same as now?",
+              colCount: 4,
+              choices: [
+                "1. WILL BE BETTER OFF",
+                "3. SAME",
+                "5. WILL BE WORSE OFF",
+                "8. DON’T KNOW"
+              ]
             }
 
             ]
